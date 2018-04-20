@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Kai Mijares | Contact</title>
+
+<!-- Style Sheets & Google Fonts -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Hi+Melody" rel="stylesheet">
+
+<!-- jquery & javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav>
+  <ul>
+    <li>
+      <div class="burger"></div>
+      <div class="burger"></div>
+      <div class="burger"></div>
+    </li>
+    <li>
+      <h1>CONTACT ME</h1>
+    </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">What I can do</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<section class="welcome">
+  <h3 class="contact-header"> </h3>
+</section>
+<section class="contact">
+  <section class="contact-content">
+    <h4 class="contact-content">Contact</h4>
+    <p>Want to talk know more what I can do? Let's have a coffee! Shoot me a message...</p>
+  </section>
+  <div id="formWrapper" class="group">
+  <form action="#" method="post">
+  <fieldset>	
+    <div id="formHelper1" class="wrapper group">
+    
+      <input type="text" name="first-name" placeholder="First Name" required>
+      <input type="text" name="last-name" placeholder="Last Name" required>
+
+    </div>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    </fieldset>
+    <button class="send">Send</button>
+    </form>
+  </div>
+</section>
+<footer>
+  <h2>Follow Me</h2>
+	<div id="socialMediaLinks" class="group">
+    	<div class="group smlWrapper">
+        	<a href="http://socialmedia.com" target="_blank">
+            	<img src="images/facebook2.png" />
+            </a>
+        </div>
+    	<div class="group smlWrapper">
+        	<a href="http://socialmedia.com" target="_blank">
+            	<img src="images/google.png" />
+            </a>
+        </div>
+    	<div class="group smlWrapper">
+        	<a href="http://socialmedia.com" target="_blank">
+            	<img src="images/linkedin.png" />
+            </a>
+        </div>
+    	<div class="group smlWrapper">
+        	<a href="http://socialmedia.com" target="_blank">
+            	<img src="images/twitter2.png" />
+            </a>
+        </div>
+    </div>
+</footer>
+<section id="copyRightFooter" class="group">
+	<p>Copyright 2018. Kai_Mij.</p>
+</section>
+<script type="text/javascript">
+$("form").submit(function(){
+    alert("Thank you!");
+});
+</script>
+</body>
+</html>

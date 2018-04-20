@@ -1,0 +1,543 @@
+html {
+	font-size: 10px;
+}
+body {
+	margin: 0 auto;
+}
+nav {
+	background-color: #6bbec4;
+	overflow: hidden;
+	padding: 2.5rem 2rem 3rem 2rem;
+}
+nav>ul {
+	height: 0%;
+}
+nav>ul>li {
+	font-family: 'Hi Melody', cursive;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 4rem;
+ letter-spacing: .03rem;
+	text-align: right;
+}
+nav a {
+	padding-left: 2rem;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+}
+nav li:first-child {
+	float: right;
+	padding: 0px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+/*nav li:first-child:hover {
+	background-color: #000;
+}*/
+
+nav>ul>li>h1 {
+	letter-spacing: 3px;
+	text-align: left;
+	visibility: hidden;
+}
+div.burger {
+ margin-top: .75rem;
+	clear: both;
+	display: block;
+ height:.5rem;
+	background-color: #ffffff;
+	width: 2.5rem;
+}
+div.burger:hover {
+}
+/*nav ul>li:first-child:hover {
+	background-color:#999f3b;
+}*/
+
+.slidedown {
+	height: 175px;
+	transition: height 1s;
+}
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 4rem;
+	padding-bottom: 2rem;
+	color: #ffffff;
+}
+section.welcome {
+	background-color: #6bbec4;
+	background-image: url('../images/hello.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 70rem;
+	margin: 0 auto;
+	overflow: auto;
+}
+h4 {
+	text-align: left;
+	font-family: 'Anton', sans-serif;
+	font-size: 2rem;
+	color: #404040;
+	padding-bottom: 2rem;
+}
+main.story {
+	text-align: center;
+	padding: 5rem 5rem 5rem 5rem;
+	font-family: 'Hi Melody', cursive;
+	font-size: 1.8rem;
+ 	letter-spacing: .05rem;
+	line-height: 2rem;
+	font-weight: 400;
+	color: #404040;
+	background-color: #6bbec4;
+}
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 4rem;
+	color: #ffffff;
+	padding-bottom: 5rem;
+}
+button {
+	padding: 1rem 2rem 1rem 2rem;
+    border: .5rem solid #ffffff;
+	background-color: #6bbec4;
+	font-family: 'Hi Melody', cursive;
+	font-size: 2.5rem;
+    letter-spacing: .05rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: block;
+	text-align: center;
+	margin: 3rem auto 0;
+	cursor: pointer
+}
+button:hover {
+	color: #404040;
+    border:#404040 .5rem solid;
+}
+a {
+	text-decoration: none;
+}
+section.inventory {
+	text-align: center;
+	padding: 5rem 5rem 5rem 5rem;
+	font-family: 'Hi Melody', cursive;
+	font-size: 1.8rem;
+    letter-spacing: .05rem;
+	line-height: 2rem;
+	font-weight: 400;
+	color: #404040;
+	background-color: #d3d3d3;
+}
+section.inventory img {
+	margin: 2rem 1rem 0rem 1rem;
+}
+button#inventory {
+	background-color: #6bbec4;
+}
+.hide {
+	display: none;
+}
+#hide {
+	display: none;
+}
+section.parralax {
+	background-color: #d3d3d3;
+	/*background-image: url('../images/coffee.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0 auto;
+	padding: 5rem 8rem;
+}
+
+section.something{
+	background-color: #d3d3d3;
+	/*background-image: url('../images/coffee.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 225px;
+	margin:0 auto; 
+	padding: 5rem 8rem;
+}
+
+blockquote {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 400;
+	font-family: 'Hi Melody', cursive;
+	margin:0 auto;
+	padding:2rem 2.25rem;
+	line-height: 2.5rem;
+	color:#404040;
+	background-color: #d3d3d3;
+}
+
+section.something h1{
+ text-align: left;
+ color: #6bbec4; 	
+}
+
+h6 {
+	text-align: center;
+	font-family: 'Hi Melody', cursive;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 4rem;
+	font-style: italic;
+    letter-spacing: .08rem;
+}
+
+footer {
+	background-color: #6bbec4;
+	padding: 5rem;
+	font-family: 'Hi Melody', cursive;
+	font-size: 1rem;
+ letter-spacing: .05rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-align: center;
+}
+footer > h2 {
+	font-size: 3rem;
+	padding-bottom: 3rem;
+	/*text-transform: uppercase;*/
+}
+footer p {
+	font-size: 2rem;
+	line-height: 120%;
+	color: #000;
+}
+footer a:link, footer a:visited, footer a:active {
+	color: #000;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #fff
+}
+footer ul {
+	padding: 2rem 0 0 0;
+	list-style-type: none;
+	margin: 0;
+}
+footer ul li {
+	padding: 0.5rem 0 0 0;
+	font-size: 2rem;
+	line-height: 120%;
+	color: #000;
+}
+footer ul li:first-child {
+	padding: 0;
+}
+footer ul li a:link, footer ul li a:visited, footer ul li a:active {
+}
+footer ul li a:hover {
+}
+div.copyright {
+	clear: both;
+	overflow: auto;
+	background-color: #696969;
+	padding: 2rem;
+	margin: 0 auto;
+	font-family: 'Hi Melody', cursive;
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+ letter-spacing: .05rem;
+	font-weight: 400;
+	color: #404040;
+}
+div.copyright a {
+	text-decoration: none;
+	color: #6bbec4;
+}
+div.copyright a:hover {
+	color: #fff;
+}
+.copyright > p {
+	float: left;
+}
+#social {
+	float: right;
+	max-width: 2rem;
+	padding-right: 1rem;
+}
+main > p {
+	max-width: 76rem;
+	font-size: 2rem;
+	line-height: 120%;
+	padding: 0 0 3rem;
+	margin: 0 auto;
+}
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.contact {
+}
+#formHelper1 {
+}
+#formHelper1 input[type="text"] {
+	float: right;
+	width: 49%;
+	padding: 0;
+	line-height: 1;
+	padding: 1rem;
+	border-radius: 0;
+	margin: 0 0 1rem;
+	font-size: 2.3rem;
+	border: 1px solid #ccc;
+	font-family: 'Hi Melody', cursive;
+}
+#formHelper1 input[type="text"]:first-child {
+	float: left;
+}
+#formWrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 3rem 0;
+}
+#formWrapper input[type="email"] {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	margin: 0 0 1rem;
+	font-size: 2.3rem;
+	line-height: 1;
+	font-family: 'Hi Melody', cursive;
+	border: 1px solid #ccc;
+}
+#formWrapper textarea {
+	display: block;
+	resize: vertical;
+	width: 100%;
+	padding: 1rem;
+	margin: 0 0 1rem;
+	font-size: 2.3rem;
+	line-height: 1;
+	border: 1px solid #ccc;
+	font-family: 'Hi Melody', cursive;
+	height: 200px
+}
+#formWrapper .send {
+}
+#formWrapper .send:hover {
+}
+
+#portfolioHolder {
+
+}
+#portfolioHolder .porty {
+    margin: 0 3.5% 0 0;
+    float: left;
+    width: 31%;
+}
+#portfolioHolder .porty.last {
+    float: right;
+    margin: 0;
+}
+#portfolioHolder .porty img {
+    max-width: 100%;
+    display: block;
+}
+.portfolioTitle{
+ text-align: center;
+ color: #6bbec4; 	
+}
+
+#socialMediaLinks {
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+.smlWrapper {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.smlWrapper img {
+    display: block;
+}
+
+
+#copyRightFooter {
+    background: #696969;
+    padding: 2rem 2%;
+}
+#copyRightFooter p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 120%;
+    font-family: 'Hi Melody', cursive;
+}
+
+section.contact-content h4{
+    font-family: 'Anton', sans-serif;
+	text-align: center;
+    padding:2rem 2.25rem;
+	line-height: 2.5rem;
+	color:#404040
+}
+section.contact-content p{
+	text-align: center;
+	font-family: 'Hi Melody', cursive;
+	font-size: 2rem;
+	line-height: 4rem;
+    
+}
+/************************************************/
+/* MEDIA QUERIES                                */
+/************************************************/
+
+
+
+/*iPad - Landscape*/
+
+@media only screen and (min-width : 1400px) and (max-width : 1440px) {
+.site-main {
+	width: 96%;
+}
+}
+@media only screen and (max-width : 1399px ) {
+.site-main {
+	width: 96%;
+}
+}
+ @media only screen and (max-width : 1299px ) {
+}
+ @media only screen and (max-width : 1199px ) {
+section.welcome {
+	background-size: 1181px auto;
+}
+}
+ @media only screen and (max-width : 1099px ) {
+section.welcome {
+	background-size: 1121px auto;
+}
+}
+
+/*iPad - Landscape*/
+
+@media only screen and (max-width : 1024px ) {
+section.welcome {
+	background-size: 1051px auto;
+	min-height: 50rem;
+	background-position: top center;
+}
+#formWrapper {
+	max-width: 96%;
+}
+}
+
+
+/*iPad - Portrait*/
+
+@media only screen and (max-width : 980px ) {
+section.welcome {
+	background-size: 970px auto;
+	min-height: 40rem;
+	background-position: top center;
+}
+}
+@media only screen and (max-width : 800px ) {
+section.welcome {
+	background-size: 870px auto;
+	min-height: 40rem;
+	background-position: top center;
+}
+}
+ @media only screen and (max-width : 780px ) {
+section.welcome {
+	background-size: 783px auto;
+	min-height: 30rem;
+	background-position: top center;
+}
+}
+
+/*Small Tablet*/
+
+@media only screen and (max-width : 767px ) {
+section.welcome {
+	background-size: 623px auto;
+	min-height: 23rem;
+	background-position: bottom top;
+	background-color: #dce4e7;
+}
+#portfolioHolder .porty img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#portfolioHolder .porty.last {
+    float: none;
+    margin: 0 auto;
+}
+#portfolioHolder .porty {
+    margin: 5rem auto;
+    float: none;
+    width: auto;
+}
+.smlWrapper img {
+    display: block;
+    margin: 1rem auto;
+}
+
+}
+ @media only screen and (max-width : 600px ) {
+section.welcome {
+	background-size: 483px auto;
+	min-height: 14rem;
+	background-position: bottom top;
+	background-color: #dce4e7;
+}
+#formHelper1 input[type="text"]:first-child {
+	float: none;
+	display: block;
+	width: 100%;
+}
+#formHelper1 input[type="text"] {
+	float: none;
+	width: 100%;
+}
+#formWrapper textarea {
+	height: 130px;
+}
+}
+
+/*Iphones*/
+
+@media only screen and (max-width : 480px ) {
+section.welcome {
+	background-size: 353px auto;
+	min-height: 10rem;
+	background-position: center;
+	background-color: #dce4e7;
+	background-attachment: inherit;
+}
+}
+ @media only screen and (max-width : 380px ) {
+section.welcome {
+	background-size: 253px auto;
+	min-height: 10rem;
+}
+}
+
+/*Small phones*/
+
+@media only screen and (max-width : 320px ) {
+}
